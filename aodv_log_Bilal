@@ -1,0 +1,33 @@
+2018-01-10 11:57:32,683 - ['HELLO_MESSAGE', 'Bilal', Sending hello message to Ahmed']
+2018-01-10 11:57:32,684 - ['HELLO_MESSAGE', 'Ahmed', '37881', 'Hello message from Ahmed']
+2018-01-10 11:57:32,684 - ['HELLO_MESSAGE', 'Bilal', Sending hello message to Charlie']
+2018-01-10 11:57:32,686 - ['HELLO_MESSAGE', 'Charlie', '42532', 'Hello message from Charlie']
+2018-01-10 11:58:02,685 - ['RREQ_MESSAGE', 'Received RREQ to Bilal:51439 from Ahmed:37881']
+2018-01-10 11:58:02,685 - aodv_process_neighbor_timeout: Ahmed went down
+2018-01-10 11:58:02,685 - ['RREP_MESSAGE', 'Sending RREP for Bilal:51439 to Ahmed via Ahmed']
+2018-01-10 11:58:02,686 - ['RERR_MESSAGE', 'Sending RERR for Ahmed:37881']
+2018-01-10 11:58:02,686 - ['RREQ_MESSAGE', 'Broadcasting RREQ to Ahmed:37881']
+2018-01-10 11:58:02,686 - ['RREQ_MESSAGE', 'Broadcasting RREQ to Ahmed:37881']
+2018-01-10 11:58:02,687 - ['RREQ_MESSAGE', 'Received RREQ to Ahmed:37881 from Charlie:42532']
+2018-01-10 11:58:02,687 - aodv_process_neighbor_timeout: Charlie went down
+2018-01-10 11:58:02,687 - ['RREQ_MESSAGE', 'Ignoring duplicate RREQ (Bilal, 1) from Charlie']
+2018-01-10 11:58:02,688 - ['RREP_MESSAGE', 'Received RREP for Ahmed:37881 from Ahmed:37881']
+2018-01-10 11:58:02,688 - ['RREQ_MESSAGE', 'Received RREQ to Bilal:51439 from Charlie:42532']
+2018-01-10 11:58:02,688 - ['RERR_MESSAGE', 'Sending RERR for Charlie:42532']
+2018-01-10 11:58:02,689 - ['RREQ_MESSAGE', 'Broadcasting RREQ to Charlie:42532']
+2018-01-10 11:58:02,689 - ['RREP_MESSAGE', 'Sending RREP for Bilal:51439 to Charlie via Charlie']
+2018-01-10 11:58:02,689 - ['RREQ_MESSAGE', 'Broadcasting RREQ to Charlie:42532']
+2018-01-10 11:58:02,689 - ['RREP_MESSAGE', 'Received RREP for Charlie:42532 from Charlie:42532']
+2018-01-10 11:58:02,690 - ['RREQ_MESSAGE', 'Received RREQ to Charlie:42532 from Ahmed:37881']
+2018-01-10 11:58:02,690 - ['RREQ_MESSAGE', 'Ignoring duplicate RREQ (Bilal, 2) from Ahmed']
+2018-01-10 11:59:06,610 - ['RERR_MESSAGE', 'Received RERR for Dawood:40775 from Charlie:42532']
+2018-01-10 11:59:06,611 - ['RREQ_MESSAGE', 'Received RREQ to Dawood:40775 from Charlie:42532']
+2018-01-10 11:59:06,612 - ['RREQ_MESSAGE', 'Rebroadcasting RREQ to Dawood:40775']
+2018-01-10 11:59:06,614 - ['RREQ_MESSAGE', 'Rebroadcasting RREQ to Dawood:40775']
+2018-01-10 11:59:06,615 - ['RREQ_MESSAGE', 'Received RREQ to Charlie:42532 from Ahmed:37881']
+2018-01-10 11:59:06,618 - ['RREP_MESSAGE', 'Sending RREP for Charlie:42532 to Ahmed via Ahmed']
+2018-01-10 11:59:06,619 - ['RREP_MESSAGE', 'Received RREP for Dawood:40775 from Ahmed:37881']
+2018-01-10 11:59:06,620 - ['RREP_MESSAGE', 'Forwarding RREP for Charlie:42532 to Charlie']
+2018-01-10 12:03:02,685 - aodv_process_route_timeout: removing Ahmed:37881 from the routing table.
+2018-01-10 12:04:06,612 - aodv_process_route_timeout: removing Charlie:42532 from the routing table.
+2018-01-10 12:04:06,620 - aodv_process_route_timeout: removing Dawood:40775 from the routing table.

@@ -1,0 +1,9 @@
+2018-01-10 12:29:30,927 - ['HELLO_MESSAGE', 'talha', Sending hello message to ali']
+2018-01-10 12:29:30,928 - ['HELLO_MESSAGE', 'ali', '35877', 'Hello message from ali']
+2018-01-10 12:30:00,930 - aodv_process_neighbor_timeout: ali went down
+2018-01-10 12:30:00,931 - ['RERR_MESSAGE', 'Sending RERR for ali:35877']
+2018-01-10 12:30:00,931 - ['RREQ_MESSAGE', 'Received RREQ to talha:38866 from ali:35877']
+2018-01-10 12:30:00,932 - ['RREQ_MESSAGE', 'Broadcasting RREQ to ali:35877']
+2018-01-10 12:30:00,934 - ['RREP_MESSAGE', 'Sending RREP for talha:38866 to ali via ali']
+2018-01-10 12:30:00,935 - ['RREP_MESSAGE', 'Received RREP for ali:35877 from ali:35877']
+2018-01-10 12:30:26,727 - ['USER_MESSAGE', 'umer:56047', 'talha:38866', 'Hello Talha from umer']
